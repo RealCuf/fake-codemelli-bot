@@ -3,6 +3,9 @@ from pyrogram.types import Message , InlineKeyboardButton , InlineKeyboardMarkup
 from .generator import round_generator, default_generator
 
 
+BOT_USERNAME = 'mybotusername'
+
+
 @Client.on_message(filters.command('start'))
 async def start_handler(client: Client, message:Message):
     await message.reply_photo(
@@ -28,11 +31,10 @@ async def start_handler(client: Client, message:Message):
 async def callback_button(client: Client, callback: CallbackQuery):
     coderoundgenerator = round_generator()
     codegenerator = default_generator()
-    botusername = client.get_me().username
     if callback.data == 'button_1':
         await callback.message.reply_text(
-            f"✅ →  ||{coderoundgenerator}||\n\n@{botusername} v1.2")
+            f"✅ →  ||{coderoundgenerator}||\n\n@{BOT_USERNAME} v1.2")
 
     elif callback.data == 'button_2':
         await callback.message.reply_text(
-            f"✅ →  ||{codegenerator}||\n\n@{botusername} v1.2")
+            f"✅ →  ||{codegenerator}||\n\n@{BOT_USERNAME} v1.2")
