@@ -3,11 +3,11 @@ from pyrogram import Client, idle
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
 
 
-BOT_TOKEN = os.environ.get('BOT_TOKEN','6109073550:AAHky1JxYGTXKLfSI6KYJGYE5nOzk0g35AE')
+BOT_TOKEN = os.environ.get('BOT_TOKEN','YOUR_BOT_TOKEN') # from botfather
 
-APP_ID = int(os.environ.get('API_ID','14898747'))
+APP_ID = int(os.environ.get('API_ID','YOUR_API_ID')) # get one from https://my.telegram.org/apps
 
-API_HASH = os.environ.get('API_HASH','396a12867419b192e537bcd5bed1f9b4')
+API_HASH = os.environ.get('API_HASH','YOUR_API_HASH') # get one from https://my.telegram.org/apps
 
 
 plugins = dict(
@@ -16,7 +16,7 @@ plugins = dict(
 
 
 app = Client(
-    name='CodeMelliBot',
+    name='codemellibot',
     plugins=plugins,
     api_id=APP_ID,
     api_hash=API_HASH,
