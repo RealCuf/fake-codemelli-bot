@@ -2,7 +2,7 @@
 <a href="https://github.com/RealCuf/VCG-Script" target="_blank"><img src="https://i.ibb.co/nm5sYCb/image.png"></a>
 <hr>
 
-### حتما تو توییتر و اینستاگرام منو دنبال کنید
+### Be sure to follow my Twitter and Instagram
 
 😶‍🌫️ Twitter : [CybrDriver](https://twitter.com/CybrDriver) -
 Instagram : [CufDev](https://instagram.com/cufdev)
