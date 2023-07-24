@@ -3,7 +3,7 @@ from pyrogram.types import Message , InlineKeyboardButton , InlineKeyboardMarkup
 from .generator import round_generator, default_generator
 
 
-BOT_USERNAME = 'mybotusername'
+BOT_USERNAME = 'botusername'
 
 
 @Client.on_message(filters.command('start'))
