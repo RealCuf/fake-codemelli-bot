@@ -5,7 +5,7 @@
 ### حتما تو توییتر و اینستاگرام منو دنبال کنید
 
 😶‍🌫️ Twitter : [CybrDriver](https://twitter.com/CybrDriver) -
-Instagram : [Instagram](https://t.me/VCGScript)
+Instagram : [CufDev](https://instagram.com/cufdev)
 
 ![myImage](https://media.giphy.com/media/XRB1uf2F9bGOA/giphy.gif)
 
