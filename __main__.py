@@ -3,7 +3,7 @@ from pyrogram import Client, idle
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
 
 
-BOT_TOKEN = os.environ.get('BOT_TOKEN','') #BOT_TOKEN
+BOT_TOKEN = os.environ.get('BOT_TOKEN','#') #BOT_TOKEN
 
 APP_ID = int(os.environ.get('API_ID','#')) #API_ID
 
